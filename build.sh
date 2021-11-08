@@ -5,7 +5,6 @@ cd openocd
 	--prefix=/opt/openocd-emf32s2-cmsis-dap\
 	--without-capstone\
 	--disable-presto\
-	--disable-ftdi\
 	--disable-stlink\
 	--disable-rshim\
 	--disable-usb-blaster-2\
@@ -34,6 +33,7 @@ cd openocd
 	--disable-ep93xx\
 	--disable-imx_gpio\
 	--disable-bcm2835gpio\
+	--disable-cmsis-dap-v2\
 
 make clean
 make
