@@ -5,7 +5,7 @@ Features other than flashing or debugging, like page locking,
 may still not work correctly, this hasn't been tested yet.
 
 [efm32s2]: ./efm32s2
-[efm32c]: https://github.com/ntfreak/openocd/blob/42a0bf3c360c1eae418223f0ab535b4d7accae83/src/flash/nor/efm32.c
+[efm32c]: https://github.com/openocd-org/openocd/blob/42a0bf3c360c1eae418223f0ab535b4d7accae83/src/flash/nor/efm32.c
 
 A number of details are different in series 2, as compared to series 0 and 1:
 
@@ -28,7 +28,7 @@ instead of keeping it separate.
 
 In this project's working directory, clone OpenOCD's official Github mirror repository:
 
-	git clone https://github.com/ntfreak/openocd
+	git clone https://github.com/openocd-org/openocd
 	cd openocd
 
 Checkout a revision compatible to this EFM32 series 2 extension:
